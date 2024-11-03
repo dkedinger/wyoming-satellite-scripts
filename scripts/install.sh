@@ -30,9 +30,9 @@ git clone https://github.com/fwartner/home-assistant-wakewords-collection.git
 
 echo "..."
 echo "${YELLOW}Installing speaker drivers...${RESET}"
-git clone https://github.com/respeaker/seeed-voicecard
+git clone https://github.com/HinTak/seeed-voicecard
 cd seeed-voicecard
-sudo bash /install_arm64.sh
+sudo ./install.sh
 
 echo "..."
 echo "${YELLOW}Installing python requirements for satellite...${RESET}"  
