@@ -12,7 +12,7 @@ Scripts to help install and manage [Wyoming remote voice satellites](https://git
 
 To run the full Install script, copy this command and run on your device  
 ```bash
-bash -c "$(wget -qLO - https://github.com/dkedinger/wyoming-satellite-scripts/raw/release/scripts/install.sh)"
+bash -c "$(wget -qLO - https://raw.githubusercontent.com/dkedinger/wyoming-satellite-scripts/refs/heads/main/scripts/install.sh)"
 ```
 
 ![menu](assets/menu.png)  
