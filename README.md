@@ -19,6 +19,7 @@ bash -c "$(wget -qLO - https://github.com/dreed47/wyoming-satellite-scripts/raw/
 
 ![menu](assets/select-wakeword.png)  
 ## Reference Links
+* Forked from great work of [dreed47s project here] (https://github.com/dreed47/wyoming-satellite-scripts) with an edit to use [SeeedStudio Speaker Driver for 64bit ARM] (https://github.com/respeaker/seeed-voicecard)
 * Works with [Home Assistant](https://www.home-assistant.io/integrations/wyoming)
 * Local wake word detection using [Wyoming services](https://github.com/rhasspy/wyoming#wyoming-projects)
 * [wyoming satellite git repo](https://github.com/rhasspy/wyoming-satellite)

@@ -32,7 +32,7 @@ echo "..."
 echo "${YELLOW}Installing speaker drivers...${RESET}"
 git clone https://github.com/respeaker/seeed-voicecard
 cd seeed-voicecard
-sudo bash /install.sh
+sudo bash /install_arm64.sh
 
 echo "..."
 echo "${YELLOW}Installing python requirements for satellite...${RESET}"  
