@@ -30,8 +30,9 @@ git clone https://github.com/fwartner/home-assistant-wakewords-collection.git
 
 echo "..."
 echo "${YELLOW}Installing speaker drivers...${RESET}"
-cd ~/wyoming-satellite/  
-sudo bash etc/install-respeaker-drivers.sh  
+git clone https://github.com/respeaker/seeed-voicecard
+cd seeed-voicecard
+sudo bash /install.sh
 
 echo "..."
 echo "${YELLOW}Installing python requirements for satellite...${RESET}"  
